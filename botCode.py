@@ -30,7 +30,7 @@ def start(bot, update):
 start_handler = CommandHandler('start', start);
 dispatcher.add_handler(start_handler)
 #############################################################
-def test_insult(bot, update):
+def insult_intel(bot, update):
     fTest = open("Shakespeare.txt", "r")
     x = random.randint(1, 23)
     for i in range(x):
@@ -39,20 +39,32 @@ def test_insult(bot, update):
     fTest.close()
     bot.sendMessage(chat_id=update.message.chat_id, text= insult)
 
-test_handler = CommandHandler('test_insult', test_insult);
-dispatcher.add_handler(test_handler)
+intel_handler = CommandHandler('insult_intel', insult_intel);
+dispatcher.add_handler(intel_handler)
 #############################################################
-def intelligence(bot, update):
+def insult_char(bot, update):
     fp = open("Shakespeare.txt", "r")
-    x = 2
-   # for i in range(x):
-    insult = fp.readline()
-    fTest.close()
+    x = random.randint(21, 46)
+    for i in range(x):
+      insult = fp.readline()
+    fp.close()
     bot.sendMessage(chat_id=update.message.chat_id, text= insult)
 
-intel_handler = CommandHandler('intelligence', intelligence);
-dispatcher.add_handler(test_handler)
+char_handler = CommandHandler('insult_char', insult_char);
+dispatcher.add_handler(char_handler)
+#############################################################
+def insult_liars(bot, update):
+    fp = open("Shakespeare.txt", "r")
+    x = random.randint(48, 54)
+    for i in range(x):
+      insult = fp.readline()
+    fp.close()
+    bot.sendMessage(chat_id=update.message.chat_id, text= insult)
+
+liar_handler = CommandHandler('insult_liars', insult_liars);
+dispatcher.add_handler(liar_handler)
+
 
 updater.start_polling()
-#updater.idle()
+updater.idle()
 
