@@ -4,6 +4,7 @@ import json
 import requests
 import telegram
 import logging
+import random
 
 from telegram.ext import Updater, CommandHandler
 
@@ -30,11 +31,26 @@ start_handler = CommandHandler('start', start);
 dispatcher.add_handler(start_handler)
 #############################################################
 def test_insult(bot, update):
-    fTest = open("test.txt", "r")
-    insult = fTest.readline()
+    fTest = open("Shakespeare.txt", "r")
+    x = random.randint(1, 23)
+    for i in range(x):
+      insult = fTest.readline()
+ #   insult = fTest.readline()
+    fTest.close()
     bot.sendMessage(chat_id=update.message.chat_id, text= insult)
 
-test_handler = CommandHandler('testInsult', testInsult);
+test_handler = CommandHandler('test_insult', test_insult);
+dispatcher.add_handler(test_handler)
+#############################################################
+def intelligence(bot, update):
+    fp = open("Shakespeare.txt", "r")
+    x = 2
+   # for i in range(x):
+    insult = fp.readline()
+    fTest.close()
+    bot.sendMessage(chat_id=update.message.chat_id, text= insult)
+
+intel_handler = CommandHandler('intelligence', intelligence);
 dispatcher.add_handler(test_handler)
 
 updater.start_polling()
