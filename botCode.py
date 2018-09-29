@@ -24,6 +24,31 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                      level=logging.INFO)
 
 ############################################################
+def startIndex(startWord):
+  fp = open("Shakespeare.txt", "r")
+  counter = 1
+  while 1:
+    line=fp.readline()
+    if line.strip() == startWord:
+      fp.close()
+      return counter + 1
+    counter += 1
+  fp.close()
+############################################################
+def endIndex(startIndex):
+  fp = open("Shakespeare.txt", "r")
+  counter = 1
+  for i in range(startIndex):
+     line=fp.readline()
+     counter+=1
+  while 1:
+    line=fp.readline()
+    if len(line.strip()) <= 10:
+      fp.close()
+      return counter
+    counter+=1
+  fp.close()
+##################################################################
 def start(bot, update):
     bot.sendMessage(chat_id=update.message.chat_id, text="I'm a bot, please talk to me!")
 
@@ -32,38 +57,44 @@ dispatcher.add_handler(start_handler)
     
 ##################################################################
 def insult_intel(bot, update):
-    send_text(bot, update, 1, 23)
+    start = startIndex("Smarts")
+    send_text(bot, update, start, endIndex(start))
 
 intel_handler = CommandHandler('insult_intel', insult_intel);
 dispatcher.add_handler(intel_handler)
 #############################################################
 def insult_char(bot, update):
-    send_text(bot, update, 21, 46)
-
+    start = startIndex("Character")
+    send_text(bot, update, start, endIndex(start))
+    
 char_handler = CommandHandler('insult_char', insult_char);
 dispatcher.add_handler(char_handler)
 #############################################################
 def insult_liars(bot, update):
-    send_text(bot, update, 48, 54)
-
+    start = startIndex("Liars")
+    send_text(bot, update, start, endIndex(start))
+    
 liar_handler = CommandHandler('insult_liars', insult_liars);
 dispatcher.add_handler(liar_handler)
 #############################################################
 def insult_looks(bot, update):
-    send_text(bot, update, 56, 71)
-
+    start = startIndex("Looks")
+    send_text(bot, update, start, endIndex(start))
+    
 looks_handler = CommandHandler('insult_looks', insult_looks);
 dispatcher.add_handler(looks_handler)
 #############################################################
 def insultingthreat(bot, update):
-    send_text(bot, update, 73, 77)
-
+    start = startIndex("Threats")
+    send_text(bot, update, start, endIndex(start))
+    
 threat_handler = CommandHandler('insultingthreat', insultingthreat);
 dispatcher.add_handler(threat_handler)
 #############################################################
 def miscinsult(bot, update):
-    send_text(bot, update, 79, 93)
-
+    start = startIndex("Other")
+    send_text(bot, update, start, endIndex(start))
+    
 misc_handler = CommandHandler('miscinsult', miscinsult);
 dispatcher.add_handler(misc_handler)
 ##################################################################

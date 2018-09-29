@@ -1,4 +1,4 @@
-Intelligence:
+Smarts
 Four of his five wits went halting off, and now is the whole man governed with one: so that if he have wit enough to keep himself warm, let him bear it for a difference between himself and his horse; for it is all the wealth that he hath left, to be known a reasonable creature. (Much Ado About Nothing, Act 1, Scene 1)
 They have a plentiful lack of wit. (Hamlet, Act 2, Scene 2)
 It is a tale told by an idiot, full of sound and fury, signifying nothing. (Macbeth, Act 5, Scene 5)
@@ -16,8 +16,7 @@ What an ass! (Hamlet, Act 2, Scene 2)
 What a thrice-double ass! (The Tempest, Act 5, Scene 1)
 A rare parrot-teacher! (Much Ado About Nothing, Act 1, Scene 1)
 Come, come, you froward and unable worms! (The Taming Of The Shrew, Act 5, Scene 2)
-
-Character:
+Character
 There’s small choice in rotten apples. (Taming of the Shrew, Act 1, Scene 1)
 Away thou rag, thou quantity, thou remnant. (The Taming of the Shrew, Act 4, Scene 3)
 Foul spoken coward, that thund’rest with thy tongue, and with thy weapon nothing dares perform. (Titus Andronicus, Act 2, Scene 1)
@@ -43,16 +42,14 @@ Saucy lackey! (As You Like It, Act 3, Scene 2)
 A weasel hath not such a deal of spleen as you are toss’d with. (Henry IV, Part 1, Act 2, Scene 3)
 Pigeon-liver’d and lack gall. (Hamlet, Act 2, Scene 2)
 Bottled spider! (Richard III, Act 1, Scene 3)
-
-Calling out Liars:
+Liars
 Heaven truly knows that thou art false as hell. (Othello, Act 4, Scene 2)
 Thou subtle, perjur’d, false, disloyal man! (The Two Gentlemen of Verona, Act 4, Scene 2)
 Thine forward voice, now, is to speak well of thine friend; thine backward voice is to utter foul speeches and to detract. (The Tempest, Act 2, Scene 2)
 Dissembling harlot, thou art false in all. (The Comedy of Errors, Act 4, Scene 4)
 There’s no more faith in thee than in a stewed prune. (Henry IV Part 1, Act 3, Scene 3)
 A most notable coward, an infinite and endless liar, an hourly promise breaker, the owner of no one good quality. (All’s Well That Ends Well, Act 3, Scene 6)
-
-Physical Character:
+Looks
 She hath more hair than wit, and more faults than hairs, and more wealth than faults.  (Two Gentlemen of Verona, Act 3, Scene 1)
 No longer from head to foot than from hip to hip, she is spherical, like a globe, I could find out countries in her. (The Comedy of Errors, Act 3, Scene 2)
 You have such a February face, so full of frost, of storm and cloudiness. (Much Ado About Nothing, Act 5, Scene 4)
@@ -68,14 +65,12 @@ Poisonous bunch-backed toad! (Richard III, Act 1, Scene 3)
 Here is the babe, as loathsome as a toad. (Titus Andronicus, Act 4, Scene 2)
 Like the toad; ugly and venomous. (As You Like It Act 2, Scene 1)
 Thou cream faced loon! (Macbeth. Act 5, Scene 3)
-
-Insulting Threats:
+Threats
 O you beast! I’ll so maul you and your toasting-iron, That you shall think the devil is come from hell. (King John, Act 4, Scene 3)
 By mine honour, if I were but two hours younger, I’d beat thee. Methink’st thou art a general offence, and every man should beat thee. (All’s Well That Ends Well, Act 2, Scene 3)
 I’ll beat thee, but I would infect my hands. (Timon of Athens, Act 4, Scene 3)
 Would thou wouldst burst! (Timon of Athens, Act 4, Scene 3)
-
-Other:
+Other
 That trunk of humours, that bolting-hutch of beastliness, that swollen parcel of dropsies, that huge bombard of sack, that stuffed cloak-bag of guts, that roasted Manningtree ox with pudding in his belly, that reverend vice, that grey Iniquity, that father ruffian, that vanity in years? (Henry IV Part 1, Act 2, Scene 4)
 Thou flea, thou nit, thou winter-cricket thou! (The Taming of the Shrew, Act 3, Scene 3)
 Thou art unfit for any place but hell. (Richard III, Act 1, Scene 2)
