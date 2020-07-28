@@ -13,4 +13,4 @@ Ask it for a specific type of insult for further devastation!
 |/insultingthreats |Insult someone and then threaten to hurt them. 2 for 1 deal |
 |/miscinsult       |Insults that defy any one category, but are devastating.    |
 
-![A screenshot of a sonversation with the bot](shakeyslams.png)
+![A screenshot of a sonversation with the bot](ShakeySlams.png)
