@@ -5,6 +5,7 @@ A telegram bot that roasts you with ye olde insultes.
 Ask it for a specific type of insult for further devastation!
 
 |Command           |Type of Insult                                              |
+|------------------|------------------------------------------------------------|
 |/insult_char      |Insult one's character                                      |
 |/insult_intel     |Insult one's intelligence                                   |
 |/insult_liars     |Put a liar in their place by calling out their lies         |
